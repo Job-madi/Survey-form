@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="style.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey form</title>
+    <script src="https://kit.fontawesome.com/0cae0d468f.js" crossorigin="anonymous"></script>
+</head>
+<body class="main">
+    <div class="heading-container">
+        <header id="heading">
+            <h1 id="h1">Are You Happy With Yourself?</h1>
+        </header>
+    </div>
+    <div class="description">
+        <section>
+            <p id="description">Are you that happy as you claim to be? and other Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque optio nulla delectus! Exercitationem rem aut voluptas sed debitis. Sint neque mollitia hic quibusdam iure non, nam deleniti. Tempora, architecto placeat. stuff</p>
+        </section>
+    </div>
+    <div class="mainbody">
+        <form action="#" id="survey-form">
+            <br>
+            Name:<input type="text" name="name" placeholder="name" id="name-label" required>
+            <br>
+            <br>
+            Surname:<input type="text" name="surname" id="surname-label" placeholder="surname" required>
+            <br>
+            <br>
+            Email: <input type="email" name="" id="email-label" required >
+            <br>
+            <br>
+            Number:<input type="number" name="number" id="number-label" minlength="7" maxlength="11" required>
+            <br>
+            <br>
+            Gender:<select name="dropdown" id="dropdown">
+                        <option value = "Male" id="dropdown">Male</option>
+                        <option value="Female" id="dropdown">Female</option>
+            </select>
+            <br>
+            <br>
+            <p>How old are you?</p>
+                <input type="radio" name="age" id="teens" value="13-18">13-18
+                <input type="radio" name="age" id="adults" value="19-40">19-40
+                <input type="radio" name="age" id="elderly" value="41-above">41-above
+                <br>
+                <br>
+                <p>What are your interests?</p>
+                <input type="checkbox" name="interests" id="sport" value="sport">Sport
+                <input type="checkbox" name="interests" id="art" value="art">Art
+                <input type="checkbox" name="interests" id="gardening" value="gardening">Gardening
+                <br>
+                <br>
+            <textarea name="" id="" cols="80" rows="20" placeholder="Do you like who you are? Tell us why..." ></textarea>
+            <br>
+            <br>
+            <br>
+            <input id="submit" type="submit" value="submit">
+            <br>
+            <br>
+        </form>
+    </div>
+</body>
+</html>
